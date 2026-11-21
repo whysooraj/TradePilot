@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <a href="#quick-install">Quick Install</a> &bull;
   <a href="#1-system-architecture">Architecture</a> &bull;
   <a href="#2-technology-stack">Tech Stack</a> &bull;
   <a href="#3-features">Features</a> &bull;
@@ -14,6 +15,18 @@
   <a href="#5-rest-api-reference">API Docs</a> &bull;
   <a href="#6-verification--concurrency-guarantees">Concurrency Guarantees</a>
 </p>
+
+---
+
+## Quick Install
+
+Run the complete platform with a single command:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/whysooraj/TradePilot/main/install.sh | bash
+```
+
+This clones the repository, checks Docker or native build tools, compiles both backend and frontend, and serves the application.
 
 ---
 
