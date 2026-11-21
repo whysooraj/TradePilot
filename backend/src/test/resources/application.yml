@@ -1,0 +1,33 @@
+server:
+  port: 0
+
+spring:
+  application:
+    name: tradelab-backend-test
+  datasource:
+    url: jdbc:h2:mem:tradelab_test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=PostgreSQL
+    username: sa
+    password: ""
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+  flyway:
+    enabled: false
+
+app:
+  jwt:
+    secret: TradeLabSuperSecureSecretKeyThatIsAtLeast32BytesLongForHS256Security1234567890
+    expiration-ms: 3600000
+  trading:
+    initial-wallet-balance: 100000.0000
+    max-quote-age-seconds: 60
+    default-fee-rate: 0.0000
+    slippage-bps: 0
+  market-data:
+    provider: mock
+    tick-interval-ms: 500000
+    demo-mode: true

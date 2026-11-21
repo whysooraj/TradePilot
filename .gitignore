@@ -1,0 +1,17 @@
+# Maven
+backend/target/
+backend/*.log
+.mvn/timing.properties
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
