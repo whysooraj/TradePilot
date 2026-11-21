@@ -33,11 +33,9 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
         {/* Logo and Market status */}
         <div className="flex items-center gap-3">
-          <div className="flex items-center gap-2 cursor-pointer" onClick={() => setActiveTab('dashboard')}>
-            <div className="w-8 h-8 rounded-lg bg-zinc-800 border border-border flex items-center justify-center font-mono font-bold text-emerald-400 text-sm">
-              TL
-            </div>
-            <span className="font-bold text-lg tracking-tight text-zinc-100">TradeLab</span>
+          <div className="flex items-center gap-2.5 cursor-pointer" onClick={() => setActiveTab('dashboard')}>
+            <img src="/favicon.svg" alt="TradeLab" className="w-8 h-8 rounded-lg" />
+            <span className="font-bold text-lg tracking-tight text-zinc-100">Trade<span className="text-emerald-400">Lab</span></span>
           </div>
           <div className="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-[11px] font-mono text-zinc-400">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>

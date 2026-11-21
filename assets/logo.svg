@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" fill="none">
+  <defs>
+    <linearGradient id="logoGreen" x1="18" y1="62" x2="62" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon Container -->
+  <rect x="8" y="8" width="64" height="64" rx="16" fill="#090a0f" />
+  <rect x="8.75" y="8.75" width="62.5" height="62.5" rx="15.25" stroke="#232733" stroke-width="1.5" />
+
+  <!-- Grid -->
+  <line x1="20" y1="40" x2="60" y2="40" stroke="#1c1f2a" stroke-width="1" stroke-dasharray="2 2" />
+  <line x1="20" y1="52" x2="60" y2="52" stroke="#1c1f2a" stroke-width="1" stroke-dasharray="2 2" />
+
+  <!-- Candles -->
+  <line x1="28" y1="32" x2="28" y2="54" stroke="#52525b" stroke-width="1.5" stroke-linecap="round" />
+  <rect x="25" y="36" width="6" height="12" rx="1.5" fill="#3f3f46" />
+
+  <line x1="40" y1="24" x2="40" y2="52" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" />
+  <rect x="37" y="28" width="6" height="16" rx="1.5" fill="url(#logoGreen)" />
+
+  <line x1="52" y1="20" x2="52" y2="46" stroke="#34d399" stroke-width="1.5" stroke-linecap="round" />
+  <rect x="49" y="22" width="6" height="14" rx="1.5" fill="#34d399" />
+  <circle cx="52" cy="20" r="2.5" fill="#a7f3d0" />
+
+  <!-- Wordmark -->
+  <text x="86" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.03em" fill="#f4f4f5">Trade<tspan fill="#10b981">Lab</tspan></text>
+  <text x="88" y="60" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, monospace" font-size="9" font-weight="600" letter-spacing="0.14em" fill="#71717a">VIRTUAL STOCK SIMULATOR</text>
+</svg>

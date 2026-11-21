@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="tlGrad" x1="12" y1="52" x2="52" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="64" height="64" rx="14" fill="#090a0f" />
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="13.25" stroke="#232733" stroke-width="1.5" />
+
+  <!-- Subtle grid lines -->
+  <line x1="12" y1="32" x2="52" y2="32" stroke="#1c1f2a" stroke-width="1" stroke-dasharray="2 2" />
+  <line x1="12" y1="46" x2="52" y2="46" stroke="#1c1f2a" stroke-width="1" stroke-dasharray="2 2" />
+
+  <!-- Candlestick 1 (Neutral Base) -->
+  <line x1="20" y1="24" x2="20" y2="46" stroke="#52525b" stroke-width="1.5" stroke-linecap="round" />
+  <rect x="17" y="28" width="6" height="12" rx="1.5" fill="#3f3f46" />
+
+  <!-- Candlestick 2 (Breakout Bullish) -->
+  <line x1="32" y1="16" x2="32" y2="44" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" />
+  <rect x="29" y="20" width="6" height="16" rx="1.5" fill="url(#tlGrad)" />
+
+  <!-- Candlestick 3 (Apex Continuation) -->
+  <line x1="44" y1="12" x2="44" y2="38" stroke="#34d399" stroke-width="1.5" stroke-linecap="round" />
+  <rect x="41" y="14" width="6" height="14" rx="1.5" fill="#34d399" />
+
+  <!-- Precision Trajectory Dot -->
+  <circle cx="44" cy="12" r="2.5" fill="#a7f3d0" />
+</svg>
